@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Able extends Application
+class Golf extends Application
 {
 
 	function __construct()
@@ -14,7 +14,7 @@ class Able extends Application
 	 */
 	public function index()
 	{
-		  $this->show(1);
+		  $this->show(6);
 	}
 	//contributed by nelson
 }
