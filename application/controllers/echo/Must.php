@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Able extends Application
+class Must extends Application
 {
 
 	function __construct()
@@ -12,9 +12,9 @@ class Able extends Application
 	/**
 	 * Homepage for our app
 	 */
-	public function index()
+	public function wehave()
 	{
-		  $this->show(6);
+		  $this->show(5);
 	}
 	//contributed by nelson
 }
